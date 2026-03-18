@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="degree-73">
+            <entry key="integer" type="xint" value="3"/>
+        </config>
+        <config key="period-100">
+            <entry key="integer" type="xint" value="12"/>
+        </config>
+        <config key="ts-105">
+            <entry key="column" type="xstring" value="Glucose_Level"/>
+        </config>
+        <config key="single-selection-132">
+            <config key="variable_value">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Centered Moving Average Trend"/>
+            </config>
+        </config>
+        <config key="single-selection-136">
+            <config key="variable_value">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Additive Seasonality"/>
+            </config>
+        </config>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Full decomposition%%00013%%00010using the TS%%00013%%00010Classical Decomposition%%00013%%00010Component"/>
+        <entry key="contentType" type="xstring" value="text/plain"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="240"/>
+        <entry key="y-coordinate" type="xint" value="319"/>
+        <entry key="width" type="xint" value="120"/>
+        <entry key="height" type="xint" value="48"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="2"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="9"/>
+        <entry key="annotation-version" type="xint" value="20230412"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="workflow-file" type="xstring" value="workflow.knime"/>
+    <entry key="virtual-in-ID" type="xint" value="63"/>
+    <config key="inports">
+        <config key="inport_0">
+            <entry key="index" type="xint" value="0"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+    </config>
+    <entry key="virtual-out-ID" type="xint" value="141"/>
+    <config key="outports">
+        <config key="outport_0">
+            <entry key="index" type="xint" value="0"/>
+            <config key="type">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+    </config>
+    <config key="workflow_template_information">
+        <entry key="role" type="xstring" value="Link"/>
+        <entry key="timestamp" type="xstring" value="2022-07-18 13:51:34 +0000"/>
+        <entry key="sourceURI" type="xstring" value="knime://My-KNIME-Hub/*-UFPm7i3S27UJYO1"/>
+    </config>
+    <entry key="layoutJSON" type="xstring" value="{&quot;parentLayoutLegacyMode&quot;:false,&quot;rows&quot;:[{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;1270&quot;,&quot;resizeTolerance&quot;:5,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;autoResize&quot;:true,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;scrolling&quot;:false,&quot;useLegacyMode&quot;:false}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;117&quot;,&quot;resizeTolerance&quot;:5,&quot;resizeMethod&quot;:&quot;aspectRatio16by9&quot;,&quot;autoResize&quot;:true,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;scrolling&quot;:false,&quot;useLegacyMode&quot;:false}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;nestedLayout&quot;,&quot;nodeID&quot;:&quot;140&quot;},{&quot;type&quot;:&quot;nestedLayout&quot;,&quot;nodeID&quot;:&quot;114&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;view&quot;,&quot;nodeID&quot;:&quot;1276&quot;,&quot;resizeTolerance&quot;:5,&quot;resizeMethod&quot;:&quot;viewLowestElement&quot;,&quot;autoResize&quot;:true,&quot;sizeHeight&quot;:true,&quot;sizeWidth&quot;:false,&quot;scrolling&quot;:false,&quot;useLegacyMode&quot;:false,&quot;minHeight&quot;:200}],&quot;widthXS&quot;:12}]}]}"/>
+    <entry key="configurationLayoutJSON" type="xstring" value="{&quot;parentLayoutLegacyMode&quot;:false,&quot;rows&quot;:[{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;105&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;100&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;136&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;132&quot;}],&quot;widthXS&quot;:12}]},{&quot;type&quot;:&quot;row&quot;,&quot;columns&quot;:[{&quot;content&quot;:[{&quot;type&quot;:&quot;configuration&quot;,&quot;nodeID&quot;:&quot;73&quot;}],&quot;widthXS&quot;:12}]}]}"/>
+    <entry key="hideInWizard" type="xboolean" value="false"/>
+    <entry key="customCSS" type="xstring" value=""/>
+</config>

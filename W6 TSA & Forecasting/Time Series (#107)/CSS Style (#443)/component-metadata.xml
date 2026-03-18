@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component-metadata content-type="text/plain" xmlns="http://www.knime.org/core/node/workflow/metadata/v1.0">
+    <last-modified>2025-03-19T01:41:48.756Z</last-modified>
+    <description>CSS</description>
+    <component-type>Manipulator</component-type>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcElEQVR4nGNgoDUwMDAQMDEx6TcyMmoA4gJyDFAAakwAsUGGDFIDQH6D+hHDn2gGTICqmWBsbByAbEADNjYuFyCLYWgCmrwfxAfS88kyAMbGpniYG5AAi0Zg4K2H0TDFoABFlsOIRooBUiIiCVPFcgAwM2Hob2VycwAAAABJRU5ErkJggg==</icon>
+    <in-ports>
+        <port name="CSS">CSS</port>
+    </in-ports>
+    <out-ports>
+        <port name="CSS">CSS</port>
+    </out-ports>
+</component-metadata>

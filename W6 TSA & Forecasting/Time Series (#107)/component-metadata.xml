@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component-metadata content-type="text/plain" xmlns="http://www.knime.org/core/node/workflow/metadata/v1.0">
+    <last-modified>2025-03-19T01:41:48.699Z</last-modified>
+    <description>This component aims to decompose a Time Series using the Classical Decomposition approach. The component has both a visual and data output that produces the following elements:
+- Detrended Time Series
+- Deseasonalized Time Series
+- Seasonal Factors
+- Fitted Time Series
+- Error component
+
+Either the method with Additive Seasonality or the method with Multiplicative Seasonality can be selected. Moreover you can select between two trend estimation methods (Centered Moving Average and Polynomial Curve FItting)</description>
+    <component-type>Sink</component-type>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABwElEQVR4nGNgIAIoKioyMDIyrmBlZW0nRj0GYGZmlgdS/0GYi4srkBwzAmEGcHNzN5JjQDPMAKBXlmBVwc7OLgb040MWFpYMLNLLYQYwMTGdgwkCveOErMgDpADo35fa2tocaAacB9oMkrsBpH+ABNJXrrTN2bbtP7KifJgtfHx87mgGfAVqvsfIxLQtqLf3/4zfv7fM/P//DxAjDACaPBNmAFBxDUiMjY2NAeglG4OwsP9F+/e/nf7r10uQJhDue/v2f8bGjSguOIRkwLY1//6x1Zw719R48+b/Gf/+gTVN//37f+3Fi/8jp0x5DFOLbMAroMZXzsXF78qPH/8M1PAGZhsQXwXiAr/WVn8kjQgDmi9fVkhdtep/19OnMA3/p/748b/y9On/nnV1/2Xk5Xmg3uRmQETnE6D3FjDM+v9/I1DDb5jGnlevnsYvXPhf1swMFm330QL0KkgcGO0xYB44QN69+5+7Y8f/qGnT0oAaQpCcdxZoSwKaAROB+I+AgIACmOfT3PwJFMdApquenh5Kuufg4PBE0wzyBhvQEgVkMZAzL6Mpeg0S5+fnl0E3ABv4D3RmP5pYK9DQ1cRoBgD3cNb4TYgFQAAAAABJRU5ErkJggg==</icon>
+    <in-ports>
+        <port name="Time Series Data">Insert Time Series Data (please SORT your Time Series in advance in order to keep the temporal sequence of the data)</port>
+    </in-ports>
+    <out-ports>
+        <port name="Time Series Decomposition">Decomposition columns (Estimated Trend, Detrended Series, Seasonal Factors, Deseasonalized Series, Errors, Fitted Series) plus original columns</port>
+    </out-ports>
+</component-metadata>

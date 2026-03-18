@@ -1,0 +1,24 @@
+
+.knime-title {
+	font-size: 12pt;
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+h2.main_title {
+	color: black;
+	font-size: 12pt;
+
+}
+
+h3.main_title {
+	color: black;
+	font-size: 10pt;
+
+}
+
+p.main_intro {
+	color: black;
+	font-size: 12pt;
+}

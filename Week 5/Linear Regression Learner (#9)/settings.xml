@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="target" type="xstring" value="caco2"/>
+        <config key="column_filter">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="30"/>
+                <entry key="0" type="xstring" value="name"/>
+                <entry key="1" type="xstring" value="Mannhold LogP"/>
+                <entry key="2" type="xstring" value="Atomic Polarizabilities"/>
+                <entry key="3" type="xstring" value="Aromatic Atoms Count"/>
+                <entry key="4" type="xstring" value="Aromatic Bonds Count"/>
+                <entry key="5" type="xstring" value="Element Count"/>
+                <entry key="6" type="xstring" value="Bond Polarizabilities"/>
+                <entry key="7" type="xstring" value="Bond Count"/>
+                <entry key="8" type="xstring" value="Eccentric Connectivity Index"/>
+                <entry key="9" type="xstring" value="Fragment Complexity"/>
+                <entry key="10" type="xstring" value="Hydrogen Bond Acceptors"/>
+                <entry key="11" type="xstring" value="Hydrogen Bond Donors"/>
+                <entry key="12" type="xstring" value="Largest Chain"/>
+                <entry key="13" type="xstring" value="Largest Pi Chain"/>
+                <entry key="14" type="xstring" value="Petitjean Number"/>
+                <entry key="15" type="xstring" value="Rotatable Bonds Count"/>
+                <entry key="16" type="xstring" value="Lipinski's Rule of Five"/>
+                <entry key="17" type="xstring" value="Topological Polar Surface Area"/>
+                <entry key="18" type="xstring" value="Vertex adjacency information magnitude"/>
+                <entry key="19" type="xstring" value="Molecular Weight"/>
+                <entry key="20" type="xstring" value="XLogP"/>
+                <entry key="21" type="xstring" value="Zagreb Index"/>
+                <entry key="22" type="xstring" value="Molecular Formula"/>
+                <entry key="23" type="xstring" value="Formal Charge"/>
+                <entry key="24" type="xstring" value="Formal Charge (pos)"/>
+                <entry key="25" type="xstring" value="Formal Charge (neg)"/>
+                <entry key="26" type="xstring" value="Heavy Atoms Count"/>
+                <entry key="27" type="xstring" value="Molar Mass"/>
+                <entry key="28" type="xstring" value="SP3 Character"/>
+                <entry key="29" type="xstring" value="Rotatable Bonds Count (non terminal)"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist">
+                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+                </config>
+            </config>
+        </config>
+        <entry key="include_constant" type="xboolean" value="true"/>
+        <entry key="offset_value" type="xdouble" value="0.0"/>
+        <entry key="missing_value_handling" type="xstring" value="fail"/>
+        <entry key="scatter_plot_first_row" type="xint" value="1"/>
+        <entry key="scatter_plot_row_count" type="xint" value="20000"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="Columns &quot;name&quot;, &quot;Molecular Formula&quot; have too many different values - will be ignored during training%%00010The following columns are redundant and will not contribute to the model: Formal Charge (neg). Coefficient statistics will not be accurate and contain missing information."/>
+    </config>
+    <entry key="factory" type="xstring" value="org.knime.base.node.mine.regression.linear2.learner.LinReg2LearnerNodeFactory2"/>
+    <entry key="node-name" type="xstring" value="Linear Regression Learner"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.5.3.v202601141520"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.5.3.v202601141520"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Linear Regression Learner"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.pmml.PMMLPortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.pmml.PMMLPortObject"/>
+            <entry key="port_object_summary" type="xstring" value="PMML document with version 4.2 and models: GeneralRegressionModel"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+        <config key="port_2">
+            <entry key="index" type="xint" value="2"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 29, Cols: 5"/>
+            <entry key="port_dir_location" type="xstring" value="port_2"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="de93b025-f1cc-401d-8256-06f98d3b9155"/>
+    </config>
+</config>
